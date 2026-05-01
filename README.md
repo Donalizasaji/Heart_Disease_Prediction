@@ -1,8 +1,5 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
-🔗 **Live EDA Report:** [Click Here to View](https://your-username.github.io/Heart_Disease_Prediction/)  
-📂 **Project Repository:** https://github.com/your-username/Heart_Disease_Prediction  
-
 ---
 
 ## 📌 Table of Contents
