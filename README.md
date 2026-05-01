@@ -107,13 +107,56 @@ The dataset contains medical attributes such as:
 
 ---
 
-## 📊 Visualizations
+## 📊 Exploratory Data Analysis (EDA)
 
-## 📊 Model Comparison
+To understand the dataset and uncover patterns, extensive exploratory data analysis was performed.
+
+### 🔍 Key Steps
+
+- Checked dataset shape, data types, and unique values  
+- Identified missing values and duplicates  
+- Converted categorical variables into numerical format  
+- Detected and removed outliers using IQR method  
+- Generated automated reports using Sweetviz and YData Profiling  
+- Visualized feature relationships and distributions  
+
+---
+
+### 📈 Key Visualizations
+
+#### 🔹 Model Performance Comparison
+
 ![Model Comparison](images/model_comparison.png)
 
-## 📊 Feature Importance
+This visualization compares different machine learning models using confusion matrix metrics (TP, TN, FP, FN), helping evaluate model effectiveness.
+
+---
+
+#### 🔹 Feature Importance
+
 ![Feature Importance](images/feature_importance.png)
+
+This plot shows the most influential features in predicting heart disease based on a Decision Tree model.
+
+---
+
+#### 🔹 Thallium vs Heart Disease
+
+![Thallium Analysis](images/thallium_vs_heart_disease.png)
+
+This visualization shows the distribution of heart disease across different Thallium values, highlighting its strong relationship with the target variable.
+
+---
+
+### 🧠 Key Insights from EDA
+
+- Cholesterol and Thallium show strong influence on heart disease prediction  
+- Feature scaling significantly improves model performance  
+- Outlier removal improves model stability  
+- XGBoost provides the best overall performance among models  
+- False negatives are critical and must be minimized in healthcare predictions  
+
+---
 
 ---
 
