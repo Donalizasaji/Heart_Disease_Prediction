@@ -1,100 +1,136 @@
-# Heart Disease Prediction using Machine Learning
+# ❤️ Heart Disease Prediction using Machine Learning
 
-## Overview
+🔗 **Live EDA Report:** [Click Here to View](https://your-username.github.io/Heart_Disease_Prediction/)  
+📂 **Project Repository:** https://github.com/your-username/Heart_Disease_Prediction  
 
-This project predicts the presence of heart disease using patient clinical data and machine learning classification models. The project includes data preprocessing, exploratory data analysis, statistical testing, model building, model comparison, and feature importance analysis.
+---
 
-## Dataset
+## 📌 Table of Contents
+- [Overview](#-overview)
+- [Dataset](#-dataset)
+- [Tech Stack](#-tech-stack)
+- [Project Workflow](#-project-workflow)
+- [Models Used](#-models-used)
+- [Results](#-results)
+- [Visualizations](#-visualizations)
+- [Key Insights](#-key-insights)
+- [How to Run](#-how-to-run)
+- [Conclusion](#-conclusion)
+- [Author](#-author)
 
-The dataset contains medical attributes related to heart disease diagnosis.
+---
 
-### Features
+## 📖 Overview
 
-- Age
-- Sex
-- Chest Pain Type
-- Blood Pressure
-- Cholesterol
-- FBS over 120
-- EKG Results
-- Max Heart Rate
-- Exercise Angina
-- ST Depression
-- Slope of ST
-- Number of Vessels Fluro
-- Thallium
-- Heart Disease
+This project predicts the presence of heart disease using patient clinical data and machine learning models.
 
-The target variable is **Heart Disease**, where:
+It covers:
+- Data preprocessing & cleaning  
+- Exploratory Data Analysis (EDA)  
+- Statistical testing (Chi-Square)  
+- Feature scaling  
+- Model building & evaluation  
+- Model comparison  
 
-- Presence = 1
-- Absence = 0
+---
 
-## Tech Stack
+## 📊 Dataset
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- XGBoost
-- TensorFlow / Keras
-- Sweetviz
-- YData Profiling
-- SciPy
+The dataset contains medical attributes such as:
 
-## Project Workflow
+- Age  
+- Sex  
+- Chest Pain Type  
+- Blood Pressure  
+- Cholesterol  
+- FBS over 120  
+- EKG Results  
+- Max Heart Rate  
+- Exercise Angina  
+- ST Depression  
+- Slope of ST  
+- Number of Vessels Fluro  
+- Thallium  
 
-1. Loaded the heart disease dataset
-2. Checked dataset shape, data types, unique values, duplicates, and missing values
-3. Converted the target column into numerical format
-4. Detected outliers using boxplots
-5. Removed outliers from the Cholesterol column using the IQR method
-6. Performed Exploratory Data Analysis
-7. Generated automated profiling reports using YData Profiling and Sweetviz
-8. Performed Chi-Square statistical tests
-9. Split the data into training and testing sets
-10. Scaled the features using StandardScaler
-11. Built and evaluated multiple classification models
-12. Compared model performance using confusion matrices and accuracy scores
-13. Analyzed important features affecting heart disease prediction
+🎯 **Target Variable:**  
+- `Presence = 1`  
+- `Absence = 0`
 
-## Models Used
+---
 
-- Logistic Regression
-- Decision Tree Classifier using Entropy
-- Decision Tree Classifier using Gini
-- XGBoost Classifier
-- Neural Network
-- Voting Classifier
+## 🛠️ Tech Stack
 
-## Evaluation Metrics
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+- XGBoost  
+- TensorFlow / Keras  
+- Sweetviz  
+- YData Profiling  
+- SciPy  
 
-The models were evaluated using:
+---
 
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
-- Precision
-- Recall
-- F1-Score
+## ⚙️ Project Workflow
 
-## Statistical Testing
+1. Data Loading & Inspection  
+2. Data Cleaning & Preprocessing  
+3. Outlier Detection (IQR Method)  
+4. Exploratory Data Analysis  
+5. Statistical Testing (Chi-Square)  
+6. Train-Test Split  
+7. Feature Scaling (StandardScaler)  
+8. Model Training  
+9. Model Evaluation  
+10. Feature Importance Analysis  
 
-Chi-Square tests were performed to check the association between selected categorical features and heart disease.
+---
 
-Features tested include:
+## 🤖 Models Used
 
-- Thallium
-- Chest Pain Type
+- Logistic Regression  
+- Decision Tree (Entropy)  
+- Decision Tree (Gini)  
+- XGBoost Classifier  
+- Neural Network  
+- Voting Classifier  
 
-## Key Insights
+---
 
-- The project compares multiple machine learning models for heart disease prediction.
-- Feature scaling was applied before model training.
-- Outlier treatment was performed on the Cholesterol column.
-- Feature importance analysis was used to identify influential health attributes.
-- Automated EDA reports were generated using Sweetviz and YData Profiling.
+## 📈 Results
+
+| Model | Performance |
+|------|------------|
+| Logistic Regression | Good baseline |
+| Decision Tree | Interpretable |
+| XGBoost | High performance |
+| Neural Network | Strong non-linear modeling |
+| Voting Classifier | Balanced results |
+
+---
+
+## 📊 Visualizations
+
+### 🔹 Model Comparison
+
+![Model Comparison](images/model_comparison.png)
+
+---
+
+### 🔹 Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
+---
+
+## 🔍 Key Insights
+
+- Cholesterol and Thallium show strong correlation with heart disease  
+- Feature scaling improves model performance  
+- XGBoost and Neural Networks perform better for complex patterns  
+- Chi-Square test confirms important feature relationships  
+
+---
 
 
