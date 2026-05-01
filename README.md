@@ -148,24 +148,17 @@ This visualization shows the distribution of heart disease across different Thal
 
 ---
 
-### 🧠 Key Insights from EDA
+### 🧠 Key Insights 
 
 - Cholesterol and Thallium show strong influence on heart disease prediction  
 - Feature scaling significantly improves model performance  
 - Outlier removal improves model stability  
 - XGBoost provides the best overall performance among models  
-- False negatives are critical and must be minimized in healthcare predictions  
+- False negatives are critical and must be minimized in healthcare predictions
+- Chi-Square test confirms important feature relationships 
 
 ---
 
----
-
-## 🔍 Key Insights
-
-- Cholesterol and Thallium show strong correlation with heart disease  
-- Feature scaling improves model performance  
-- XGBoost and Neural Networks perform better for complex patterns  
-- Chi-Square test confirms important feature relationships  
 
 ---
 
