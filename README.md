@@ -97,9 +97,4 @@ Features tested include:
 - Feature importance analysis was used to identify influential health attributes.
 - Automated EDA reports were generated using Sweetviz and YData Profiling.
 
-## How to Run the Project
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/Heart-Disease-Prediction-ML.git
