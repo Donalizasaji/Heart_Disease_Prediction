@@ -109,13 +109,13 @@ The dataset contains medical attributes such as:
 
 ## 📊 Visualizations
 
-### 🔹 Model Comparison
+## 📊 Model Comparison
 
 ![Model Comparison](images/model_comparison.png)
 
 ---
 
-### 🔹 Feature Importance
+## 📊 Feature Importance
 
 ![Feature Importance](images/feature_importance.png)
 
