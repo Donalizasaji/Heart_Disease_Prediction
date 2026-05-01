@@ -2,6 +2,10 @@
 
 ---
 
+This project predicts heart disease using machine learning models by analyzing patient clinical data. It includes exploratory data analysis, feature importance evaluation, and comparison of models such as logistic regression, decision trees, and XGBoost.
+
+---
+
 ## 📌 Table of Contents
 - [Overview](#-overview)
 - [Dataset](#-dataset)
